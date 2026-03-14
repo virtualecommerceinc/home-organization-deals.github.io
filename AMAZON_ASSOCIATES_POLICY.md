@@ -4,25 +4,25 @@
 All outbound Amazon links must include Dan Herlehy's Associates tracking tag so commission attribution is preserved.
 
 ## 2) Required Tracking ID
-`virtualecomme-20`
+`homeorganize01-20`
 
 ## 3) Link Construction Standard
-Every Amazon URL must include `tag=virtualecomme-20`.
+Every Amazon URL must include `tag=homeorganize01-20`.
 
 Examples:
-- Product: `https://www.amazon.com/dp/B0XXXXXXX?tag=virtualecomme-20`
-- Product alt: `https://www.amazon.com/gp/product/B0XXXXXXX?tag=virtualecomme-20`
-- Search: `https://www.amazon.com/s?k=drawer+dividers&tag=virtualecomme-20`
-- Category: `https://www.amazon.com/b?node=165793011&tag=virtualecomme-20`
-- Existing query params: append with `&tag=virtualecomme-20`
+- Product: `https://www.amazon.com/dp/B0XXXXXXX?tag=homeorganize01-20`
+- Product alt: `https://www.amazon.com/gp/product/B0XXXXXXX?tag=homeorganize01-20`
+- Search: `https://www.amazon.com/s?k=drawer+dividers&tag=homeorganize01-20`
+- Category: `https://www.amazon.com/b?node=165793011&tag=homeorganize01-20`
+- Existing query params: append with `&tag=homeorganize01-20`
 
 ## 4) Enforcement Rule
 No untagged Amazon links are allowed in this repository or generated websites.
 
 ## 5) Implementation Guidance
 All automation agents, templates, and URL builders must append:
-- `?tag=virtualecomme-20` when no query string exists
-- `&tag=virtualecomme-20` when query params already exist
+- `?tag=homeorganize01-20` when no query string exists
+- `&tag=homeorganize01-20` when query params already exist
 
 ## 6) Compliance
 Amazon Associates commissions are credited through Special Links containing the Associate tag.
@@ -35,4 +35,4 @@ Tag presence is always mandatory.
 ## 8) Failsafe Validation
 Before publishing/commit:
 1. Scan all `amazon.com` links (US-only scope).
-2. If `tag=virtualecomme-20` is missing, block and fix.
+2. If `tag=homeorganize01-20` is missing, block and fix.
