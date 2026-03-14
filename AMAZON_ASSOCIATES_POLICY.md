@@ -34,5 +34,5 @@ Tag presence is always mandatory.
 
 ## 8) Failsafe Validation
 Before publishing/commit:
-1. Scan all `amazon.*`, `amzn.to`, and `amazon.co.*` links.
+1. Scan all `amazon.com` links (US-only scope).
 2. If `tag=virtualecomme-20` is missing, block and fix.

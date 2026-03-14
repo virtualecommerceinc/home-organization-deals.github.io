@@ -3,7 +3,7 @@ import re, sys
 from pathlib import Path
 TAG = "tag=virtualecomme-20"
 PAT = re.compile(r'href="(https?://[^"]+)"', re.I)
-AMZ = re.compile(r'https?://([^/]*amazon\.[^/]+|amzn\.to)/', re.I)
+AMZ = re.compile(r'https?://([^/]*amazon\.com)/', re.I)
 bad=[]
 for f in Path('.').glob('*.html'):
     txt=f.read_text(encoding='utf-8', errors='ignore')
