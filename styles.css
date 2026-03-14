@@ -13,3 +13,4 @@ a:hover{text-decoration:underline}
 .disclosure{background:#1a2448;padding:.6rem .8rem;border-left:4px solid var(--accent);border-radius:.4rem}
 table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--line);padding:.6rem;text-align:left}
 .footer{opacity:.9;padding-bottom:2rem}
+.hero-shot img{width:100%;height:auto;border-radius:.75rem;display:block;box-shadow:0 10px 30px rgba(0,0,0,.25)}
