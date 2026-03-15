@@ -16,11 +16,11 @@
 - contact.html
 
 ## Sitemap status
-- \ exists, valid, includes all key pages.
-- \ added for all URLs.
+- `sitemap.xml` exists, valid, includes all key pages.
+- `lastmod` added for all URLs.
 
 ## Robots.txt status
-- \ exists, crawl allowed, sitemap path points to custom domain location.
+- `robots.txt` exists, crawl allowed, sitemap path points to custom domain location.
 
 ## Meta + canonical status
 - All pages contain title, description, viewport, charset, and canonical tags.
@@ -36,7 +36,7 @@
 
 ## Affiliate validation
 - Amazon tag validator passed.
-- All amazon.com links include tag=homeorganize01-20.
+- All amazon.com links include `tag=homeorganize01-20`.
 
 ## GSO/GEO readiness
 - Semantic headings, practical FAQs, structured lists, and intent-rich comparisons present.
