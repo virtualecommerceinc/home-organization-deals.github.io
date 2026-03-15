@@ -30,3 +30,5 @@ summary{cursor:pointer;font-weight:600}
 table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--line);padding:.6rem;text-align:left}
 .footer{opacity:.9;padding-bottom:2rem}
 @media (max-width:900px){.two-col{grid-template-columns:1fr}.hero-overlay{position:static;background:#101a36}.hero-banner{overflow:visible}}
+.guide-hero{margin:1rem 0}
+.guide-hero img{width:100%;height:auto;border-radius:.75rem;display:block;box-shadow:0 10px 24px rgba(0,0,0,.22)}
