@@ -81,3 +81,7 @@ table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--line);pad
   .top-links{order:3;width:100%;margin-left:0}
   .top-cta{margin-left:auto}
 }
+.guide-cards{align-items:stretch}
+.guide-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.guide-card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.guide-card .card-body{padding:1rem}
