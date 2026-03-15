@@ -85,3 +85,6 @@ table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--line);pad
 .guide-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
 .guide-card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
 .guide-card .card-body{padding:1rem}
+.support-image{margin:1rem 0}
+.support-image img,.trust-hero img{width:100%;height:auto;border-radius:.75rem;display:block;box-shadow:0 10px 20px rgba(0,0,0,.2)}
+.trust-hero{margin:.75rem 0 1rem}
